@@ -1,0 +1,27 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: relative;
+    -moz-user-select: none;/*Firefox*/
+    -ms-user-select: none;/*ie10*/
+    -webkit-user-select: none;/*Chrome*/
+    user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+}
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+}
+

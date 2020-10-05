@@ -1,0 +1,22 @@
+{
+    "presets": [ "react","env" ,"stage-2"],
+    "plugins": [
+      "transform-runtime",
+      "transform-decorators-legacy",
+      [
+        "import",
+        {
+          "libraryName":"antd",
+          "libraryDirectory":"es",
+          "style":"css"
+        }
+      ]
+    ],
+    "sourceMaps": true,
+    "env": {
+      "development": {
+        "presets": [["env"], "react", "stage-2"],
+        "plugins": ["transform-runtime", "transform-decorators-legacy"]      
+      }
+    }
+  }
